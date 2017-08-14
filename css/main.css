@@ -1,0 +1,32 @@
+body{
+    outline: 1px solid red;
+}
+.trapecio {
+    position: absolute;
+    width: 650px;
+    height: 0px;
+    /*right: 100px;*/
+    left: 600px;
+    border-right: 0px solid red;
+    border-left: 70px solid transparent;
+    -webkit-column-break-after: 20px solid blue;
+    border-bottom: 500px solid gray;
+    /*background-color: green;*/
+}
+.tarjeta{
+    position: absolute ,relative;
+    top: 100px;
+    bottom: 200px;
+}
+.image{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 50px;
+    /*border-right: 10px solid red;*/
+    /*border-left: 70px solid blue;*/
+    /*-webkit-column-break-after: 10px solid blue;*/
+    /*border-bottom: 500px solid gray;*/
+    /*background-color: green;*/
+
+}
