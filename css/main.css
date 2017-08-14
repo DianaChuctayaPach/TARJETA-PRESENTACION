@@ -1,5 +1,8 @@
+*{
+    /* outline: 1px solid red; */
+}
 body{
-    outline: 1px solid red;
+    background: black;
 }
 .trapecio {
     position: absolute;
@@ -8,16 +11,50 @@ body{
     /*right: 100px;*/
     left: 600px;
     border-right: 0px solid red;
-    border-left: 70px solid transparent;
+    border-left: 80px solid transparent;
     -webkit-column-break-after: 20px solid blue;
-    border-bottom: 500px solid gray;
+    border-bottom: 500px solid #3c3c3b;
     /*background-color: green;*/
 }
-.tarjeta{
-    position: absolute ,relative;
-    top: 100px;
-    bottom: 200px;
+#name{
+    /* position: absolute; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    top: 20px;
 }
+#carrera{
+    color: #F5A731;
+    font-size: 40px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    
+}
+#datos{
+    color: white;
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;
+}
+#conteiner{
+    position: relative;
+    top: 40px;
+    bottom: 50px;
+    
+}
+#foto{
+    position: relative;
+}
+#lab{
+    color: #F5A731;
+    position: absolute;
+    font-size: 70px;
+    left: 60px;
+    top: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
 .image{
     position: absolute;
     width: 700px;
@@ -29,4 +66,9 @@ body{
     /*border-bottom: 500px solid gray;*/
     /*background-color: green;*/
 
+}
+#icono{
+    position: absolute;
+    top: 340px;
+    left: 490px;
 }
